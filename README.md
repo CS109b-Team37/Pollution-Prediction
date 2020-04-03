@@ -16,3 +16,17 @@ Dr. Dominici’s team has provided the scientific community and policy makers wi
 - Data : contains all datasets used for analysis 
 - Reference Docs: contains all project reference materials, ppts, airpred journal article
 - EDA Notebooks: Notebooks that will meet 2nd milestone for EDA
+
+# Milestone 2 Instructions
+
+As part of your final project,  please perform exploratory data analysis (EDA) on the data you have received. In order to simulate the "real world," the details of this are deliberately left open-ended, so your EDA should be what you consider the best for the domain you are working in and the specifics of the data. Please cite any references that you use when learning more about the topic of your project.
+
+ 
+
+Key Questions: 
+
+- Given everything you have learned, if you faced this data set in the wild, how would you proceed? 
+
+- What are the important measures? 
+
+- What are the right questions to ask, and how can the data answer them?
