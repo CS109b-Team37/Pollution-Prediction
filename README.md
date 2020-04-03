@@ -11,6 +11,19 @@ Dr. Dominici is an international leader at the interface of statistics, data sci
 
 Dr. Dominici’s team has provided the scientific community and policy makers with robust evidence on the adverse health effects of air pollution, and climate change. Her studies have directly and routinely impacted air quality policy, leading to more stringent ambient air quality standards in the US.
 
+# ReadMe Docs
+
+Note: data is here as .rda and .csv which I converted - we can provide the students with either format, depending on what kind of challenge we want to give them.
+
+https://github.com/NSAPH/airpred/tree/master/data
+
+https://urldefense.proofpoint.com/v2/url?u=https-3A__arxiv.org_pdf_1805.11534v2.pdf&d=DwMFaQ&c=WO-RGvefibhHBZq3fL85hQ&r=ceUkYxt_BQDuFfu_QNyMwM3yzna5GIDBXEyS66wPs04&m=PSHSEiYn4j188YKTspuOiq1cHkhgzwJQSqeYTKE_VN4&s=PchvvRJ4ON58rFsZ2KuyEykhOlbB2vkqE1ek-SUiP8o&e=
+
+https://pubs-acs-org.ezp-prod1.hul.harvard.edu/doi/abs/10.1021/acs.est.5b06121
+
+https://urldefense.proofpoint.com/v2/url?u=https-3A__docs.google.com_spreadsheets_d_1OGFDnBYt4-5FZ4ZSzRg9XoxNw-5FNTGZdG5wJyopEkbNr8Q_edit-23gid-3D0&d=DwMFaQ&c=WO-RGvefibhHBZq3fL85hQ&r=ceUkYxt_BQDuFfu_QNyMwM3yzna5GIDBXEyS66wPs04&m=PSHSEiYn4j188YKTspuOiq1cHkhgzwJQSqeYTKE_VN4&s=ejt_oLg3IR7n4f7fXYSSosKLUXUb2iDfxpEbVaSPDTY&e=
+
+
 # Github Development Structure
 
 - Data : contains all datasets used for analysis 
