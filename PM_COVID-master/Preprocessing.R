@@ -2,7 +2,7 @@ library("dplyr")
 library(stringr)
 library(RCurl)
 
-date_of_study = "04-04-2020"
+date_of_study = "05-02-2020"
 # Historical data
 covid_hist = read.csv(text=getURL("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/03-30-2020.csv"))
 covid_us_hist = subset(covid_hist, Country_Region == "US" & is.na(FIPS)==F)
@@ -90,4 +90,4 @@ aggregate_pm_census_cdc_test = aggregate_pm_census_cdc_test %>%
 
 aggregate_pm_census_cdc_test_beds = merge(aggregate_pm_census_cdc_test,county_hospitals_aggregated,by.x = "fips",by.y = "COUNTYFIPS",all.x = T)
 
-
+write.csv(aggregate_pm_census_cdc_test_beds, 'processed_data.csv')
