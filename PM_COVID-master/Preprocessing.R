@@ -90,4 +90,8 @@ aggregate_pm_census_cdc_test = aggregate_pm_census_cdc_test %>%
 
 aggregate_pm_census_cdc_test_beds = merge(aggregate_pm_census_cdc_test,county_hospitals_aggregated,by.x = "fips",by.y = "COUNTYFIPS",all.x = T)
 
+
+filename = paste0("processed_data", date_of_study, '.csv')
+
+                  
 write.csv(aggregate_pm_census_cdc_test_beds, 'processed_data.csv')
